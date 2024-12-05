@@ -10,6 +10,9 @@
   - [Large lectures for first year students](https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Fundamentals.md)
   - [Large lectures with time codes](https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Fundamentals-timecodes.md)
   - [Dictionary](https://github.com/HowProgrammingWorks/Dictionary)
+  - [Git docs](https://git-scm.com/docs)
+  - [Git tutorial](https://www.w3schools.com/git/)
+  - [Github tutorial](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
 - Seminars and lectures closely related to exams:
   - [Seminar 1](https://youtu.be/eYjf_WrYAqk)
   - [Seminar 2](https://youtu.be/05iTAT_t6cI)
@@ -83,3 +86,12 @@
 - At the second seminar, I showed an example of how to optimize the code step by step
 - When you're done, make a pull request to my repository
 - Good luck!
+
+## Alternatives
+
+- Open-source contribution
+- Conference talk or seminar participation
+- Pet-projects, commercial projects
+- Practical programming experience in products
+- Articles
+- MDN contribution
