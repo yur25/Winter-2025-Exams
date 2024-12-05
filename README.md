@@ -2,7 +2,7 @@
 
 - You need github account, node.js and text editor or IDE installed
 - You can use any online materials, docs, FAQs, AI tools, Videos, etc. it is not important how can you get understanding of tasks and solutions, but we need understanding, not just solutions
-- Deadline for all students: 2025-01-15 14:00
+- Deadline for all students: 2025-01-?? 14:00
 - Here is additional materials you may refer:
   - [JavaScript Guide - English version on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
   - [JavaScript for beginners - Ukrainian version](https://youtu.be/FlXsGI7rzWE)
@@ -29,7 +29,11 @@
 - To improve code style you may use:
   - Eslint to check style and analyze syntax: https://eslint.org
   - Prettier to optimize style and code layout: https://prettier.io
-  - Here is recommended eslint config: https://github.com/HowProgrammingWorks/API/blob/master/.eslintrc.json
+    - Here is config example: https://github.com/HowProgrammingWorks/Future/blob/master/prettier.config.js
+  - Here is recommended eslint config:
+    - Config: https://github.com/HowProgrammingWorks/Future/blob/master/eslint.config.js
+    - Rules sources: https://github.com/metarhia/eslint-config-metarhia
+  - Package.json example: https://github.com/HowProgrammingWorks/Future/blob/master/package.json
 - Use tests from `.tests.js` files to check tasks functionality
   - For example run: `node size.test.js` to check `size.js` or `npm t` (to check all taks)
   - Output example: `Test size.js: Passed: 11 of 11`
