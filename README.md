@@ -18,17 +18,15 @@
   - [Seminar 2](https://youtu.be/05iTAT_t6cI)
   - [Antipatterns and refactoring](https://www.youtube.com/playlist?list=PLHhi8ymDMrQb3PVcPFAUI-ZgtAMkpq9yV)
   - See examples in `/Example` directory
-- For those who have projects instead of this exams tasks:
-  - You need to create screencast video presentation of codebase and project functionality: 15-30 minutes length
-  - Upload it to Youtube, Google disk or other hosting with video support and add link to this video in your project repository
-- For those who want technical interview:
-  - Write your request in our telegram group ASAP and I'll schedule call
 - Fork this repository: https://github.com/HowProgrammingWorks/Winter-2025-Exams
-- Clone this repository to your machine or you can do everything in Github interface or integrated VSCode IDE
+- Clone this repository to your machine or you can do everything in Github integrated VSCode IDE
 - Create branch `exams`
-- See directory `/Tasks` there are 38 tasks prepared in one of the worst possible implementation and style
-- You can select from 5 up to 10 tasks for exams (except `difference.js` and `size.js`) to refactor and optimize in a few steps (you may do all the tasks if you want but 10 is enough for "A")
-- Tasks code works and gives right results. You need to change files but do not break functionality covered by tests
+- See directory `/Tasks` there are 38 tasks prepared in one of the worst possible implementation and style and N more tasks to be implemented from the scratch
+- You can select from 3 to 6 tasks (except `difference.js` and `size.js`) to refactor and optimize
+- Additionaly you can select from 3 to 6 tasks to implement from the scratch
+- You may do all the tasks if you want but 6 + 6 is enough for "A"
+- In implemented tasks code works and gives right results. You need to change files but do not break functionality covered by tests
+- In tasks without given implementation we have just tests and they should pass
 - To improve code style you may use:
   - Eslint to check style and analyze syntax: https://eslint.org
   - Prettier to optimize style and code layout: https://prettier.io
@@ -37,7 +35,7 @@
     - Config: https://github.com/HowProgrammingWorks/Future/blob/master/eslint.config.js
     - Rules sources: https://github.com/metarhia/eslint-config-metarhia
   - Package.json example: https://github.com/HowProgrammingWorks/Future/blob/master/package.json
-- Use tests from `.tests.js` files to check tasks functionality
+- Use tests from `*.tests.js` files to check tasks functionality
   - For example run: `node size.test.js` to check `size.js` or `npm t` (to check all taks)
   - Output example: `Test size.js: Passed: 11 of 11`
   - If tests fails you will see something like: `Case: size(23456789) -> "23 mb", expected: "123 mb"`
@@ -59,7 +57,7 @@
   - Convert all magic values to constants
   - Follow the rules for naming identifiers
   - Think carefully about the names of identifiers so that when reading the code, everyone understands their contents
-  - Don't make functions too long
+  - Don't make functions too long (5-10 lines preferably, ...20 is ok, but...)
   - Don't make a big stack of if statements, use arrays and objects instead
 - Hints:
   - Use eslint and prettier, fix all warnings
@@ -89,9 +87,13 @@
 
 ## Alternatives
 
-- Open-source contribution
-- Conference talk or seminar participation
-- Pet-projects, commercial projects
-- Practical programming experience in products
+- Open-source contribution: contact me please
+- Conference talk or seminar participation: contact me please
+- For those who want technical interview:
+  - Write your request in our telegram group ASAP and I'll schedule call
+- For those who have projects instead of this exams tasks:
+  - Pet-projects, commercial projects, practical programming experience in products
+  - You need to create screencast video presentation of codebase and project functionality: 15-30 minutes length
+  - Upload it to Youtube, Google disk or other hosting with video support and add link to this video in your project repository
 - Articles
 - MDN contribution
