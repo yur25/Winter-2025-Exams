@@ -4,13 +4,14 @@
 'use strict'
 
 const filter = (array, type) => {
-  const remove = []
+  const tempArr = []
   for (const element of array) {
     if (typeof element === type) {
-      remove.push(element)
+      tempArr.push(element)
     }
   }
-  return remove
+  array = tempArr
+  return array
 }
 
 module.exports = filter
