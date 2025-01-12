@@ -6,13 +6,11 @@
 const filter = (array, type) => {
   const remove = []
   for (const element of array) {
-    x = array.indexOf(element)
-    if (typeof array[x] !== type) {
-      remove.unshift(x)
+    if (typeof element === type) {
+      remove.push(element)
     }
   }
-  for (x of remove) array.splice(x, 1)
-  return array
+  return remove
 }
 
 module.exports = filter
