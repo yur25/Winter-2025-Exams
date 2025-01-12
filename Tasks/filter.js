@@ -3,10 +3,10 @@
 
 'use strict'
 
-filter = (array, type) => {
-  remove = []
-  for (C of array) {
-    x = array.indexOf(C)
+const filter = (array, type) => {
+  const remove = []
+  for (const element of array) {
+    x = array.indexOf(element)
     if (typeof array[x] !== type) {
       remove.unshift(x)
     }
@@ -15,4 +15,4 @@ filter = (array, type) => {
   return array
 }
 
-module.exports = Filter
+module.exports = filter
