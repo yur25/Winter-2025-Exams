@@ -5,15 +5,12 @@
 
 const getvaluebetween = (str, p, s) => {
   const i = str.indexOf(p)
-  if (i === -1) return ''
   const k = i + p.length
-  const str = str.substring(k)
-  if (s) {
-    i = str.indexOf(s)
-    if (i === -1) return ''
-    str = str.substring(0, i)
+  const j = str.indexOf(s)
+  if (i !== -1 && j !== -1){
+    return str.substring(k, j)
   }
-  return str
+  else return ''
 }
 
 module.exports = getvaluebetween
