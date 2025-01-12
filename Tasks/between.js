@@ -4,11 +4,11 @@
 'use strict'
 
 const getvaluebetween = (str, p, s) => {
-  const i = str.indexOf(p)
-  const k = i + p.length
-  const j = str.indexOf(s)
-  if (i !== -1 && j !== -1){
-    return str.substring(k, j)
+  const pIndex = str.indexOf(p)
+  const left = pIndex + p.length
+  const right = str.indexOf(s)
+  if (pIndex !== -1 && right !== -1){
+    return str.substring(left, right)
   }
   else return ''
 }
