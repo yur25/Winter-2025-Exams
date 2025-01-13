@@ -1,12 +1,12 @@
 // Refactor following solution
 // Find a difference between two dictionaries
 
-const diff = (object_1, object_2) => {
-  for (attribute_name in object_2) {
-    object_1[attribute_name] = object_2[attribute_name]
-    delete object_1[attribute_name]
+const diff = (obj1, obj2) => {
+  const keys = Object.keys(obj1)
+  for (const key of keys) {
+    if (obj2[key]) delete obj1[key]
   }
-  return object_1
+  return obj1
 }
 
 module.exports = diff
