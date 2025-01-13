@@ -1,10 +1,12 @@
 // Refactor following solution
 // Count words in a string
 
-Words = function (s) {
-  number_of_words_in_s = 0;
-  flag = false;
-  for (c of s) {
+'use strict'
+
+const words = (string) => {
+  const wordNumber = 0
+  flag = false
+  for (c of string) {
     if (!flag) {
       if (c === ' ') {
         if (flag === true) {
@@ -18,7 +20,7 @@ Words = function (s) {
         } else {
           flag = true;
         }
-        number_of_words_in_s++;
+        wordNumber++;
       }
     } else {
       if (c === ' ') {
@@ -36,7 +38,7 @@ Words = function (s) {
       }
     }
   }
-  return number_of_words_in_s;
-};
+  return wordNumber
+}
 
-module.exports = Words;
+module.exports = words
