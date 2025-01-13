@@ -3,7 +3,7 @@
 
 'use strict'
 
-const getvaluebetween = (str, p, s) => {
+const getValueBetween = (str, p, s) => {
   const pIndex = str.indexOf(p)
   const left = pIndex + p.length
   const right = str.indexOf(s)
@@ -13,4 +13,4 @@ const getvaluebetween = (str, p, s) => {
   else return ''
 }
 
-module.exports = getvaluebetween
+module.exports = getValueBetween

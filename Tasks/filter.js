@@ -4,13 +4,13 @@
 'use strict'
 
 const filter = (array, type) => {
-  const tempArr = []
+  const tempArray = []
   for (const element of array) {
     if (typeof element === type) {
-      tempArr.push(element)
+      tempArray.push(element)
     }
   }
-  array = tempArr
+  array = tempArray
   return array
 }
 
