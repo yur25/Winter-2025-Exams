@@ -4,8 +4,8 @@
 'use strict'
 
 const words = (string) => {
-  const wordList = string.split(' ')
-  const wordNumber = wordList.length
+  if (string === '') return 0
+  const wordNumber = string.split(' ').length
   return wordNumber
 }
 
